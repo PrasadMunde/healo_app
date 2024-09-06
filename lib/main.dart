@@ -7,9 +7,10 @@ import 'demo.dart';
 
 Future<void> main() async {
   await Supabase.initialize(
-    url: "https://sgwnssqdicjsaqqgrert.supabase.co/",
-    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNnd25zc3FkaWNqc2FxcWdyZXJ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjQ4NTE5MTgsImV4cCI6MjA0MDQyNzkxOH0.CrWpi4HgjALR8dj9pgo9T-cDryhEGuSqFYuvaw1gWAA");
-  runApp( MyApp());
+      url: "https://sgwnssqdicjsaqqgrert.supabase.co/",
+      anonKey:
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNnd25zc3FkaWNqc2FxcWdyZXJ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjQ4NTE5MTgsImV4cCI6MjA0MDQyNzkxOH0.CrWpi4HgjALR8dj9pgo9T-cDryhEGuSqFYuvaw1gWAA");
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
